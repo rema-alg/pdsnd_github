@@ -12,7 +12,7 @@ def get_filters():
     print('Hello! Let\'s see some of our bikeshare data!')
     # get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
-    city = input('\nWould you like to see data for Chicago, Washington, or New York ?\n').lower()
+    city = input('\nWould you like to see data for Chicago, Washington, or New York ??\n').lower()
     #lower is used to get input in any format
 
     while(True):
@@ -22,7 +22,7 @@ def get_filters():
             city = input('Oops! Enter Correct city: ').lower()
              #lower is used to get input in any format
     # get user input for month (all, january, february, ... , june)
-    month = input('\nWhich month? January, February, March, April, May, or June?\n').lower()
+    month = input('\nWhich month? January, February, March, April, May, or June??\n').lower()
      #lower is used to get input in any format
 
     while(True):

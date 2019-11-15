@@ -5,7 +5,7 @@
 Bikeshare Data analysis program
 
 ### Description
-Describe what your project is about and what it does
+this project for bikeshare for US cities
 
 ### Files used
 Include the files used

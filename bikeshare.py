@@ -187,7 +187,7 @@ def user_stats(df):
     print('-'*40)
     
 
-def raw(df):
+def show_raw_data(df):
     start=0
     end=5
     show=input("\n would you want to see the raw data? Enter yes or no\n").lower()
@@ -211,7 +211,7 @@ def main():
         station_stats(df)
         trip_duration_stats(df)
         user_stats(df)
-        raw(df)
+        show_raw_data(df)
         
 
         restart = input('\nWould you like to restart the explore ? Enter yes or no.\n')
